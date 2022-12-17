@@ -1,0 +1,6 @@
+project: muon
+target: muon-fuzz
+
+cmds:
+    - cmd: /muon/fuzz/muon-fuzz.py
+      libfuzzer: true
