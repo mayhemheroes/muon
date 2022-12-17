@@ -6,10 +6,9 @@ import os
 import json
 from json import JSONDecodeError
 
-sys.path.append( '../muon_py' )
+sys.path.append( '/muon/muon_py' )
 
-with atheris.instrument_imports():
-    import muon 
+import muon
 
 @atheris.instrument_func
 def TestOneInput(data):
